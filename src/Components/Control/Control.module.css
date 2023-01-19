@@ -1,0 +1,21 @@
+.resalt {
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+.options {
+  display: flex;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.resalt:last-child {
+  margin: 0 auto;
+  width: 50%;
+}

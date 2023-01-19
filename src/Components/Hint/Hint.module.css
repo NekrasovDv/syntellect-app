@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hint {
+  display: flex;
+  padding: 0px 5px;
+  width: 100%;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: end;
+  border-bottom: 1px solid lightgrey;
+  background-color: lightgray;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 10px;
+}
+.hint:first-child{
+  margin-top: 5px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  color: black;
+}
+.flag {
+  width: 30px;
+  margin-right: 20px;
+}
